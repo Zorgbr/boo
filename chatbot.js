@@ -167,8 +167,8 @@ client.on('message', async msg => {
                 await client.sendMessage(msg.from,
                     `💸 Nossos Planos:\n\n` +
                     `*Plano Mensal:* R$19,90\n` +
-                    `*Plano Trimestral:* R$55,00\n` +
-                    `*Plano Anual:* R$180,00\n\n` +
+                    `*Plano Trimestral:* R$50,00\n` +
+                    `*Plano Anual:* R$160,00\n\n` +
                     `✅ Acesso completo a canais, filmes e séries.\n\n` +
                     `Digite *9* para voltar ou *Menu* para o início.`
                 );
