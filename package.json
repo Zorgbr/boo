@@ -1,7 +1,13 @@
 {
+  "name": "nobreplay-bot",
+  "version": "1.0.0",
+  "description": "Atendente automático WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "moment-timezone": "^0.5.45",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.28.0"
+    "whatsapp-web.js": "^1.24.0"
   }
 }
