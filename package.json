@@ -1,13 +1,47 @@
 {
-  "name": "nobreplay-bot",
-  "version": "1.0.0",
-  "description": "Atendente automático WhatsApp",
+  "name": "nobreplay-whatsapp-bot",
+  "version": "2.0.0",
+  "description": "Chatbot automatizado para WhatsApp - Nobre Play | Atendimento inteligente 24/7",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-deps": "npm install",
+    "clean": "rm -rf node_modules package-lock.json && npm install"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "chatbot",
+    "automation",
+    "customer-service",
+    "nodejs",
+    "streaming",
+    "iptv"
+  ],
+  "author": {
+    "name": "Nobre Play",
+    "email": "contato@nobreplay.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   },
   "dependencies": {
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.24.0"
-  }
+    "whatsapp-web.js": "^1.25.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobreplay/whatsapp-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nobreplay/whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/nobreplay/whatsapp-bot#readme"
 }
